@@ -1,5 +1,8 @@
 # Mega-Zero-Heated-Bed
-### This guide is to upgrade to a heated bed for the Anycubic Mega Zero. I have found some other guides online but I ran into a few problems while upgrading.
+### This guide was the full process I went through to upgrade to a heated bed for the Anycubic Mega Zero. I have found some other guides online but I ran into a few problems while upgrading. 
+
+### Thanks to [Adapted Machining](https://www.youtube.com/watch?v=sJeAniMir0c&ab_channel=AdaptedMachining) for making this sweet video guide. As well as [ztipnis' heated bed guide](https://github.com/ztipnis/Mega-Zero-Heated-Bed) 
+
 
 ## Part List
 - [Ultrabase (clone)](https://amzn.to/2YSLC1B)
