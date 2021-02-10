@@ -1,7 +1,21 @@
 # Mega-Zero-Heated-Bed
 ### This guide is to upgrade to a heated bed for the Anycubic Mega Zero. I have found some other guides online but I ran into a few problems while upgrading.
 
-### 1. Update Firmware
+## Part List
+- [Ultrabase (clone)](https://amzn.to/2YSLC1B)
+- [Mosfet](https://amzn.to/3jCwgaK)
+- [Boost Converter](https://amzn.to/2Z221Re)
+- [Meanwell PSU](https://amzn.to/3d08vIx)
+- [Optional: PSU Rocker Switch](https://amzn.to/3qmC4Il)
+- [Red and Black Wire](https://amzn.to/3p8UHhe)
+- [Heat Shrink](https://amzn.to/3rEb6fm)
+
+Links above are linked to my amazon associates account.
+
+  
+
+
+## 1. Update Firmware
 
 There are two possible routes here. 
 1) Update stock board firmware
@@ -96,7 +110,7 @@ I had a few issues that the bootloader was not responding, after trying several 
 
 When you turn your printer on the status screen should look like this:
 ![goodstatus](goodstatus.jpg)
-### 2. Electronics
+## 2. Electronics
 
 Because the mainboard was not upgraded, you will have to add some electronics.
 
@@ -116,13 +130,13 @@ c) ATX Powersupply. There are ways of converting PC powersupplies to work with 3
 
 5) 220x220 Heated bed: I chose to go with a knock off ultrabase from Amazon.
 
-### 3. Mechanical
+## 3. Mechanical
 
 1) Bed adapters: Because of the placement of the stock bed screws, you will need an adapter to use the standard 220x220 heated bed. Designing one is not too hard just measure the stock screw distance and then the new bed screw distance and 3d print out of PLA for now (I have PLA on my printer now and haven't noticed any warping). In the future I am planning on making them out of aluminum.
 
 2) Bed leveling knobs: The vertical extrusions are not wide enough to use the stock leveling knobs so I printed some off of thingiverse. [Here is the one I chose](https://www.thingiverse.com/thing:2138298). 
 
-### 4. Assembly
+## 4. Assembly
 
 1) Print the bed leveling knobs and bed adapters before removing the stock bed.
 2) Solder wires to VIN of the boost converter. 
@@ -152,7 +166,7 @@ Connect the red and black wires of the bed to the screw terminal of the MOSFET l
 
 11) Connect your power supply to the other screw terminal.
 
-### 5. Testing
+## 5. Testing
 
 Turn your machine on and you should find the heated bed giving an ambient temperature reading (not -14). To make sure it is heating preheat the bed for PLA. If it is not heating after about 20 seconds your printer will start beeping at you.
 
