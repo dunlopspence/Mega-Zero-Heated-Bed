@@ -13,7 +13,7 @@
 - [Red and Black Wire](https://amzn.to/3p8UHhe)
 - [Heat Shrink](https://amzn.to/3rEb6fm)
 
-Links above are linked to my amazon associates account.
+As an Amazon Associate I earn from qualifying purchases
 
   
 
