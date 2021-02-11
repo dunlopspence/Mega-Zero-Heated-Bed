@@ -1,7 +1,7 @@
 # Mega-Zero-Heated-Bed
 ### This guide was the full process I went through to upgrade to a heated bed for the Anycubic Mega Zero. I have found some other guides online but I ran into a few problems while upgrading. 
 
-### Thanks to [Adapted Machining](https://www.youtube.com/watch?v=sJeAniMir0c&ab_channel=AdaptedMachining) for making this sweet video guide. As well as [ztipnis' heated bed guide](https://github.com/ztipnis/Mega-Zero-Heated-Bed) 
+### Thanks to [Adapted Machining for making this sweet video guide](https://www.youtube.com/watch?v=sJeAniMir0c&ab_channel=AdaptedMachining). As well as [ztipnis' heated bed guide](https://github.com/ztipnis/Mega-Zero-Heated-Bed) 
 
 
 ## Part List
@@ -146,13 +146,13 @@ c) ATX Powersupply. There are ways of converting PC powersupplies to work with 3
 3) Solder the included wires from the MOSFET to the VOUT side.
 4) Solder the boost connector VIN wires to the mainboard in this location: 
 
-## picture of main board
+![mainboard](megazeromainboard.png)
+
 
 5) Using a multimeter tune the boost converter to have an output of >5V. The MOSFET will trigger from a signal of 5-24V.
 
 6) Plug the output of the boost converter into the MOSFET at the connector labeled SIG GND. I did not try the board control connector so I don't know if that works also. 
 
-## picture of mosfet connection
 
 7) Remove the stock bed by turning the bed level screws clockwise until they fall off. When all are off remove the stock bed. Be careful that you don't lose the springs.
 
@@ -174,7 +174,8 @@ Connect the red and black wires of the bed to the screw terminal of the MOSFET l
 Turn your machine on and you should find the heated bed giving an ambient temperature reading (not -14). To make sure it is heating preheat the bed for PLA. If it is not heating after about 20 seconds your printer will start beeping at you.
 
 
-
+--------
+### Let me know if I have missed anything and I will add it! Hope this helps.
 
 
 
